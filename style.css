@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "slnt" 0;
+}
+
+.content {
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "slnt" 0;
+    font-weight: 500;
+    min-height: 100vh;
+}
+
+.top-header {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 36px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.left a {
+    padding: 1em 2em;
+    margin-right: 0.5em;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+}
+
+.left a:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 2em;
+    line-height: 1.6;
+    margin-top: 2.25rem;
+}
+
+.left {
+    max-width: 70%;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 36px 0 20px;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: -0.022em;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.left h2 {
+    padding-top: 3em;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 1em 0;
+    font-weight: 500;
+    max-width: 400px;
+    line-height: 1.6;
+    padding-bottom: 2em;
+}
+
+
+
+img {
+    max-width: 550px;
+}
+
+footer {
+    min-height: 200px;
+    padding: 0 2em;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer li {
+    padding: .5em;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer span {
+    padding: 3em 0;
+    font-weight: 600;
+}
